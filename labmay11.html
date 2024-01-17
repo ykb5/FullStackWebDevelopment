@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Conversion- Upper Case/Lower Case</title>
+</head>
+<body>
+    <input type="text" id="fname" name="fname">
+    <button onclick="upper()">Upper Case</button>
+    <button onclick="lower()">Lower Case</button>
+
+    <script>
+        function upper() {
+            var fname = document.getElementById("fname");
+            fname.value = fname.value.toUpperCase();
+        }
+
+        function lower() {
+            var fname = document.getElementById("fname");
+            fname.value = fname.value.toLowerCase();
+        }
+    </script>
+</body>
+</html>
